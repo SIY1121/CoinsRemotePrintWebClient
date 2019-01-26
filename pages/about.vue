@@ -22,14 +22,9 @@
         <h1>開発者向け情報</h1>
         このサービスは、Nuxt.js で生成されたフロントエンドと、coinsサーバーに設置されたphpで記述されたAPIから成っています。
         どちらもオープンソースで公開しています。APIを利用してネイティブアプリを作っていただいても構いませんし、本体へのコントリビュートもお待ちしています。
-        <v-layout>
-          <v-flex>
-            Coins Remote Print API
-          </v-flex>
-          <v-flex>
-            Coins Remote Print Web Client
-          </v-flex>
-        </v-layout>
+        <br><br>
+        <div><a target="_blank" href="https://github.com/SIY1121/CoinsRemotePrintAPI">CoinsRemotePrintAPI</a></div>
+        <div><a target="_blank" href="https://github.com/SIY1121/CoinsRemotePrintWebClient">CoinsRemotePrintWebClient</a></div>
       </v-card>
     </v-flex>
   </v-layout>
