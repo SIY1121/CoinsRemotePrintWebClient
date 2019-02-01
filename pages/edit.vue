@@ -107,7 +107,7 @@
       printerInfoParam.append('user',this.$store.state.user)
       printerInfoParam.append('pass',this.$store.state.pass)
       try{
-        const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/PrinterInfo.php',printerInfoParam)
+        const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/v1/PrinterInfo.php',printerInfoParam)
         this.availablePrinters = res.data.data
       }catch (e) {
         if(e.response){
@@ -119,7 +119,7 @@
       paperCutParam.append('user',this.$store.state.user)
       paperCutParam.append('pass',this.$store.state.pass)
       try{
-        const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/PaperCut.php',paperCutParam)
+        const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/v1/PaperCut.php',paperCutParam)
         this.point = res.data.data
       }catch (e) {
         if(e.response){

@@ -40,7 +40,7 @@
           const params = new URLSearchParams()
           params.append('user',this.username)
           params.append('pass',this.password)
-          const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/UserInfo.php', params)
+          const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/v1/UserInfo.php', params)
           this.$store.commit('setUserData', {
             user: this.username,
             pass: this.password,

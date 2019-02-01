@@ -62,7 +62,7 @@
         this.$store.commit('setLoadingState',true)
         try{
           console.log("start")
-          const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/Print.php',params,{headers:{'Content-Type': 'multipart/form-data'}})
+          const res = await axios.post('https://www.coins.tsukuba.ac.jp/~s1811317/printer/api/v1/Print.php',params,{headers:{'Content-Type': 'multipart/form-data'}})
           this.$router.push('/submit')
         }catch (e) {
           console.log(e)
