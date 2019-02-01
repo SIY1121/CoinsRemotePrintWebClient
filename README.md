@@ -1,6 +1,6 @@
 # CoinsRemotePrintWebClient
 
-> My outstanding Nuxt.js project
+> [CoinsRemotePrintAPI](https://github.com/SIY1121/CoinsRemotePrintAPI)を使用したWebクライアント
 
 ## Build Setup
 
