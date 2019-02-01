@@ -1,7 +1,7 @@
 {
   "name": "CoinsRemotePrintWebClient",
   "version": "1.0.0",
-  "description": "My outstanding Nuxt.js project",
+  "description": "Remote Print Service for COINS",
   "author": "SIY1121",
   "private": true,
   "scripts": {

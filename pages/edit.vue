@@ -15,8 +15,8 @@
       <v-card class="elevation-12 pa-4">
         <v-layout column>
           <v-flex class="my-2">
-            <h3>1. 印刷するファイルを選択</h3>
-            <input type="file" id="file" hidden>
+            <h3>1. 印刷するファイルを選択 (pdf限定)</h3>
+            <input type="file" id="file" accept="application/pdf" hidden>
             <v-btn color="success" @click="selectFile">ファイルを選択</v-btn>
             <span>{{file.name}}</span>
           </v-flex>
